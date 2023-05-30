@@ -58,6 +58,6 @@ motorcycle = Motorcycle(brand='Mercedes', fuel_volume=CONFIG.FUEL_VOLUME, fuel_r
 car.refill(fuel=3)
 motorcycle.refill(fuel=30)
 motorcycle.fuel_transfusing(car, 23)
-car.fuel_transfusing(motorcycle, 4)
+car.fuel_transfusing(motorcycle, 5)
 print(car)
 print(motorcycle)
